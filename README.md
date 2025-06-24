@@ -1,6 +1,6 @@
 # fedora setup
 
-quick setup script for my fedora workstation
+quick setup script for my fedora workstation (https://fedoraproject.org/workstation/download)
 
 ## what it does
 
