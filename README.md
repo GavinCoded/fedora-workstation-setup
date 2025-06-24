@@ -28,6 +28,7 @@ might take a while depending on your internet connection.
 - uses native packages where possible
 - falls back to flatpak when needed
 - should work on fedora 37+
+- making this public on github so i can easily download it for myself when needed
 
 reboot after running to make sure everything loads properly.
 
