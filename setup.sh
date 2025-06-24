@@ -3,7 +3,7 @@
 set -e
 
 # basic packages
-echo "installing core stuff..."
+echo "installing applications..."
 sudo dnf update -y
 sudo dnf install -y nodejs npm discord flatpak telegram-desktop steam lxrandr obs-studio wine winetricks bottles lutris htop fastfetch
 
