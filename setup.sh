@@ -34,6 +34,14 @@ flatpak install flathub com.jetbrains.WebStorm -y
 
 flatpak install flathub com.parsecgaming.parsec -y
 
+flatpak install flathub io.exodus.Exodus -y
+
+flatpak install flathub com.termius.Termius -y
+
+sudo dnf install obs-studio -y
+
+sudo dnf install wine winetricks -y
+
 sudo dnf install bottles -y
 
 sudo dnf install lutris -y
