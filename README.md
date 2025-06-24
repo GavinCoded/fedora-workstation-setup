@@ -11,6 +11,7 @@ installs all the stuff i need on a fresh fedora install:
 - utilities (bitwarden, mullvad vpn, htop, fastfetch, lxrandr, obs)
 - gaming tools (bottles, lutris, wine, winetricks)
 - crypto (exodus wallet)
+- and more! too lazy to list look at the src if you care
 
 ## how to use
 
