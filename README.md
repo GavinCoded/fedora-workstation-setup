@@ -25,6 +25,6 @@ might take a while depending on your internet connection.
 - makes sure flatpak is set up with flathub
 - uses native packages where possible
 - falls back to flatpak when needed
-- should work on fedora 37+
+- should work on fedora 37+ (however this is being used on fedora 42)
 
 reboot after running to make sure everything loads properly.
