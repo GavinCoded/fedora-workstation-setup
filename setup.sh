@@ -3,7 +3,7 @@
 set -e
 
 # basic packages
-echo "installing important applications..."
+echo "installing core stuff..."
 sudo dnf update -y
 sudo dnf install -y nodejs npm discord flatpak telegram-desktop steam lxrandr obs-studio wine winetricks bottles lutris htop fastfetch
 
@@ -12,7 +12,7 @@ echo "setting up flatpak..."
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # flatpak applications 
-flatpak install -y flathub com.spotify.Client com.bitwarden.desktop com.jetbrains.IntelliJ-IDEA-Community com.jetbrains.WebStorm com.parsecgaming.parsec io.exodus.Exodus com.termius.Termius
+flatpak install -y flathub com.spotify.Client com.bitwarden.desktop com.jetbrains.IntelliJ-IDEA-Community com.jetbrains.WebStorm com.parsecgaming.parsec io.exodus.Exodus com.termius.Termius org.videolan.VLC
 
 # mullvad vpn
 echo "installing mullvad..."
@@ -43,4 +43,4 @@ sudo systemctl restart vboxdrv
 sudo usermod -aG vboxusers "$USER"
 
 echo
-echo "script completed! please reboot"
+echo "all done. reboot or relog to finish setup."
