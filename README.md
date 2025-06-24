@@ -30,3 +30,6 @@ might take a while depending on your internet connection.
 - should work on fedora 37+
 
 reboot after running to make sure everything loads properly.
+
+# why i made this
+my arch linux install died after 2 months, and after trying fedora again on my main system, it's just too good for me to switch back to arch or any other distro. so i’m planning to main fedora long-term, and i made this script in case i ever need to reinstall (nvidia moment?) or set it up on another machine.
